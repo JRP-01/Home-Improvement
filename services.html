@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Home Improvement</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Home Improvement</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="services-layout">
+        <!-- Main Section -->
+        <section>
+            <h2>Our Services</h2>
+            <p>We specialize in quality renovations, repairs, and upgrades to make your home exactly how you envision it.</p>
+
+            <h3>Popular Services</h3>
+            <div class="popular-services">
+                <div class="service-item">
+                    <img src="images/kitchen-remodel.jpg" alt="Kitchen Remodel">
+                    <p>Kitchen Remodel</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/bathroom-remodel.jpg" alt="Bathroom Remodel">
+                    <p>Bathroom Remodel</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/flooring-installation.jpg" alt="Flooring Installation">
+                    <p>Flooring Installation</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/exterior-paint.jpg" alt="Exterior Painting & Siding">
+                    <p>Exterior Painting & Siding</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/deck-construction.jpg" alt="Deck Construction">
+                    <p>Deck Construction</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sidebar -->
+        <aside>
+            <h3>Why Choose Us?</h3>
+            <p>Over 10 years of local experience delivering craftsmanship and customer satisfaction.</p>
+
+            <h3>Free Estimate</h3>
+            <p>Call us today for a free on-site estimate — Monday through Saturday.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Home Improvement. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

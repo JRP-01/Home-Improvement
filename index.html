@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Improvement</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Home Improvement</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Banner -->
+        <section class="hero">
+            <img src="images/hero.jpg" alt="Beautiful renovated home exterior" class="hero-img">
+            <h2>Your trusted local contractor</h2>
+            <p>We provide quality home improvement, remodeling, and repair services for your home or business.</p>
+            <button>Get a Free Estimate</button>
+        </section>
+
+        <!-- Featured Services -->
+        <section class="featured-services">
+            <h3>Featured Services</h3>
+            <div class="services-grid">
+                <article class="service-card">
+                    <img src="images/kitchen-remodel.jpg" alt="Kitchen Remodel">
+                    <h4>Kitchen Remodel</h4>
+                    <p>Modern designs, efficient timelines, and quality finishes.</p>
+                </article>
+
+                <article class="service-card">
+                    <img src="images/bathroom-remodel.jpg" alt="Bathroom Remodel">
+                    <h4>Bathroom Remodel</h4>
+                    <p>Elegant bathrooms with high-quality materials and fixtures.</p>
+                </article>
+
+                <article class="service-card">
+                    <img src="images/flooring-installation.jpg" alt="Flooring Installation">
+                    <h4>Flooring Installation</h4>
+                    <p>Wood, tile, or laminate — we install it beautifully and reliably.</p>
+                </article>
+
+                <article class="service-card">
+                    <img src="images/exterior-paint.jpg" alt="Exterior Painting and Siding">
+                    <h4>Exterior Painting & Siding</h4>
+                    <p>Refresh your home’s exterior with quality paint and siding work.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Home Improvement. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Home Improvement</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Home Improvement</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Our Project Gallery</h2>
+
+        <div class="gallery-grid">
+            <figure>
+                <img src="images/kitchen-remodel.jpg" alt="Kitchen Remodel">
+                <figcaption>Kitchen Remodel — Completed June 2025</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/bathroom-remodel.jpg" alt="Bathroom Remodel">
+                <figcaption>Bathroom Remodel — Walk-in Shower & Modern Tiles</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/exterior-paint.jpg" alt="Exterior Paint & Siding">
+                <figcaption>Exterior Painting & Siding — Fresh and Modern</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/deck-construction.jpg" alt="Deck Construction">
+                <figcaption>Custom Backyard Deck — Summer 2025</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/flooring-installation.jpg" alt="Flooring Installation">
+                <figcaption>New Hardwood Flooring — Living Room</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/drywall.jpg" alt="Drywall & Painting">
+                <figcaption>Freshly Painted Walls & Smooth Drywall Finish</figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Home Improvement. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
